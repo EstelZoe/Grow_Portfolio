@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stella's Portfolio</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="./scripts/script.js" defer></script>
+</head>
+
+<body class="font-serif text-primary flex overflow-x-hidden">
+
+
+  <button id="menu-btn" class="fixed top-4 left-4 z-50 md:hidden bg-white p-2 border rounded shadow">
+    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+
+  <aside id="sidebar"
+    class="fixed top-0 left-0 h-full w-64 bg-white border-r border-gray-200 p-6 flex flex-col justify-between z-40 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out">
+    <div>
+      <h1 class="text-3xl font-bold mb-10 text-highlight">Stella Amoah</h1>
+      <nav class="space-y-4 text-lg">
+        <a href="#about" class="block text-accent hover:text-highlight transition">About</a>
+        <a href="#experience" class="block text-accent hover:text-highlight transition">Experience</a>
+        <a href="#skills" class="block text-accent hover:text-highlight transition">Skills</a>
+        <a href="#projects" class="block text-accent hover:text-highlight transition">Projects</a>
+        <a href="#contact" class="block text-accent hover:text-highlight transition">Contact</a>
+      </nav>
+    </div>
+    <div class="text-sm mt-10">
+      <a href="www.linkedin.com/in/stella-amoah-37/" target="_blank"
+        class="text-primary hover:underline block mb-2">LinkedIn</a>
+      <a href="./assets/CV.docx (1).pdf estel 2.pdf" download
+        class="block border border-primary text-primary px-3 py-2 rounded bg-gray-300 hover:bg-highlight hover:text-white transition-transform transform hover:scale-105 shadow">Download
+        CV</a>
+    </div>
+  </aside>
+
+
+  <main class="ml-0 md:ml-64 w-full">
+
+
+    <section class="py-20 text-center">
+      <div class="max-w-3xl mx-auto px-4">
+        <img src="./assets/profile2 8.50.43 PM.jpeg" alt="Estel"
+          class="w-32 h-32 mx-auto mb-6 rounded-full object-cover border border-gray-300 shadow-md">
+        <h2 class="text-4xl font-bold mb-2">Stella Amoah</h2>
+        <p class="text-xl text-accent mb-4">Frontend Developer|Crafter</p>
+      </div>
+    </section>
+
+
+   <section id="about" class="about-section">
+  <div class="about-content">
+    <div class="about-text">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p class="text-accent leading-relaxed">
+        I'm a Junior Frontend Developer passionate about building interactive and user-friendly web applications using HTML, CSS, JavaScript, and React. I enjoy translating designs into functional websites and continuously learning new technologies in the frontend ecosystem.<br><br>
+        Beyond code, I bring a strong foundation in tools like Microsoft Office, WordPress, and APIs, along with creative skills in graphic design and annotation. I also have hands-on knowledge of fine-tuning LLMs, improving Retrieval-Augmented Generation (RAG), and preparing datasets for AI with human feedback — merging frontend with emerging AI workflows.<br><br>
+        Outside tech, I have a creative side rooted in fashion and handmade crafts, which inspires my design-thinking and user-first approach to development.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="./assets/profile3at.jpeg" alt="Estel Zoe" />
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="experience" class="py-16 px-4 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6">Experience</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="text-xl font-semibold">Frontend Developer </h4>
+          <p class="text-sm text-accent">May 2025 – Present</p>
+          <p class="mt-2 text-accent">"Designed and developed responsive web interfaces using React and Tailwind CSS,
+            integrated external APIs with Axios, and collaborated on UI/UX design using Figma. Also experienced in
+            building and customizing websites with WordPress."</p>
+        </div>
+      
+
+        <div>
+          <h4 class="text-xl font-semibold">Ethical API Labeller - Isahit.</h4>
+          <p class="text-sm text-accent"> 2020 - Nov 2024</p>
+          <p class="mt-2 text-accent">Fine - Tuning LLMs
+            Enhancing RAG,  Processing Data for AI with Human Feedbacks.
+            </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="py-16 px-4 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6">Skills</h3>
+      <div class="space-y-4">
+        <div>
+          <p class="font-semibold">HTML <span class="float-right">90%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[90%]"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold">tailwindcss <span class="float-right">85%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[85%]"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold">javascript <span class="float-right">85%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[85%]"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold">CSS <span class="float-right">75%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[75%]"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold"> React<span class="float-right">75%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[75%]"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold">Wordpress <span class="float-right">90%</span></p>
+          <div class="w-full bg-gray-300 rounded-full h-2 mb-4">
+            <div class="bg-[#00f7ff] h-2 rounded-full w-[90%]"></div>
+          </div>
+        </div>
+      
+    </section>
+
+
+    <section id="projects" class="py-16 px-4 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6">Projects</h3>
+      <div class="space-y-6">
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Fashion Hub  Website</h3>
+          <p class="mb-4">A Fashion Hub website built with HTML and CSS to showcase my
+            skills and projects.</p>
+          <a href="https://my-folder-alpha.vercel.app/" target="_blank" class="text-blue-600 hover:underline">View
+            Project</a>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Event-Hive Website</h3>
+          <p class="mb-4">An Event-Hive website built with React and tailwindcss to showcase my
+            skills and projects.</p>
+          <a href="https://portfolio-wine-five-9d5eflfvrq.vercel.app/" target="_blank"
+            class="text-blue-600 hover:underline">View
+            Project</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Bookie App</h3>
+          <p class="mb-4">An E-Library application developed using React and Tailwind CSS to help institutions digitize their physical libraries, showcasing my frontend development skills. 
+            </p>
+          <a href="https://jocular-khapse-9cdc90.netlify.app/" target="_blank"
+            class="text-blue-600 hover:underline">View
+            Project</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Prime Auuttos</h3>
+          <p class="mb-4">Prime Auuttos is a fast and user-friendly online platform for genuine auto spare parts. Built with React and Tailwind CSS, it offers easy navigation, smooth search, and reliable delivery—focused on customer satisfaction and a seamless shopping experience</p>
+          <a href="https://prime-auuttos.netlify.app/" target="_blank" class="text-blue-600 hover:underline">View
+            Project</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="bg-soft py-16">
+      <div class="max-w-md mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+        <form action="https://formsubmit.co/estelzoe433@gmail.com" method="POST" class="space-y-4 text-left">
+
+          <input type="text" name="name" placeholder="Your Name" required
+            class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-highlight" />
+
+          <input type="email" name="email" placeholder="Your Email" required
+            class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-highlight" />
+
+          <textarea name="message" rows="5" placeholder="Your Message" required
+            class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-highlight"></textarea>
+
+
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thank-you.html">
+
+          <button type="submit"
+            class="w-full border border-highlight px-6 py-3 rounded text-highlight hover:bg-gray-300 hover:text-white transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-6 text-center text-sm text-accent">
+      <p>&copy; 2025 Estel. All rights reserved.</p>
+    </footer>
+  </main>
+
+</body>
+
+</html>
